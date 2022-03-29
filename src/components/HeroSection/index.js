@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
-import { FaArrowRight } from 'react-icons/fa';
-import Video from '../../videos/video3.mp4';
+import Video from '../../videos/video2.mp4';
 import { Button } from '../ButtonElement';
 import {
   HeroContainer,

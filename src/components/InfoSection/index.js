@@ -1,4 +1,5 @@
 import React from 'react';
+
 import { Button } from '../ButtonElement';
 import {
   InfoContainer,
@@ -59,9 +60,9 @@ const InfoSection = ({
               </TextWrapper>
             </Column1>
             <Column2>
-              {/*      <ImgWrap>
-                <Img src={img} alt={alt} />
-              </ImgWrap> */}
+              <ImgWrap>
+                <Img src={img.default} />
+              </ImgWrap>
             </Column2>
           </InfoRow>
         </InfoWrapper>
